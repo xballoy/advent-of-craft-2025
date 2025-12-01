@@ -1,40 +1,16 @@
 # My Advent of Craft 2025 Journey
 
-## About me
-
-- Name / handle:
-- Main stack(s):
-- What I hope to explore in this loop:
-
----
-
 ## My Logs
 
 ### Day 1
 
-- Stack(s) & exercise I touched: 
+- Stack(s) & exercise I touched: [memories/2024/exercise/ts/day01](../memories/2024/exercise/ts/day01)
 - Key reflection I picked:
-	> What I reflected on today?
-	> What I can do better.
-- What this reminded me of (project, bug, design, team story): 
-
-### Day 2
-
-- ...
+	- It's hard to pick the right tool, I used Sonar in the end but had to lower (a lot) the threshold.
+    - It's important to follow complexity but this should not become a metric (otherwise the metric will be wrong).
 
 ---
 
 ## Time-loop rules for future-me
 
 As you go, list rules you want to carry into the next loop, e.g.:
-
-- "Don’t optimise without measuring."
-- "If a test is hard to write, look at the design."
-- ...
-
-## My resources library
-
-I'm building my own library:
-
-- Techniques of refactoring: https://refactoring.guru/
-- ...
