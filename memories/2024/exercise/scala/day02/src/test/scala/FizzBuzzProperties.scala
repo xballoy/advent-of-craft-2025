@@ -9,7 +9,13 @@ class FizzBuzzProperties extends AnyFunSuite with ScalaCheckPropertyChecks {
   val MIN: Int = FizzBuzz.MIN
   val MAX: Int = FizzBuzz.MAX
 
-  val fizzBuzzStrings: List[String] = List("Fizz", "Buzz", "FizzBuzz")
+  val fizzBuzzStrings: List[String] = List(
+    "Fizz", "Buzz", "Whizz", "Bang",
+    "FizzBuzz", "FizzWhizz", "FizzBang",
+    "BuzzWhizz", "BuzzBang", "WhizzBang",
+    "FizzBuzzWhizz", "FizzBuzzBang", "FizzWhizzBang", "BuzzWhizzBang",
+    "FizzBuzzWhizzBang"
+  )
 
   def validStringsFor(x: Int): List[String] = fizzBuzzStrings :+ x.toString
 

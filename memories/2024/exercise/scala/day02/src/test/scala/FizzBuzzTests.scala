@@ -14,14 +14,25 @@ class FizzBuzzTests extends AnyFunSpec with Matchers with OptionValues {
         (67, "67"),
         (82, "82"),
         (3, "Fizz"),
-        (66, "Fizz"),
-        (99, "Fizz"),
+        (66, "FizzBang"),
+        (99, "FizzBang"),
         (5, "Buzz"),
         (50, "Buzz"),
         (85, "Buzz"),
         (15, "FizzBuzz"),
         (30, "FizzBuzz"),
-        (45, "FizzBuzz")
+        (45, "FizzBuzz"),
+        (7, "Whizz"),
+        (14, "Whizz"),
+        (49, "Whizz"),
+        (11, "Bang"),
+        (22, "Bang"),
+        (44, "Bang"),
+        (21, "FizzWhizz"),
+        (35, "BuzzWhizz"),
+        (33, "FizzBang"),
+        (55, "BuzzBang"),
+        (77, "WhizzBang")
       )
 
       forAll(validInputs) { (input: Int, expectedResult: String) =>
