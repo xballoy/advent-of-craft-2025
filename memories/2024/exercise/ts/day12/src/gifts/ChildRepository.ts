@@ -1,11 +1,6 @@
 import {Child} from "./Child";
 
-export type ChildRepository = {
-    save(child: Child): void;
-    findByName(name: string): Child | undefined;
-}
-
-export class InMemoryChildRepository implements ChildRepository {
+export class ChildRepository {
     private readonly children: Child[] = [];
 
     save(child: Child): void {

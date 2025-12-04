@@ -1,12 +1,10 @@
 import {Child} from './Child';
 import {Toy} from './Toy';
 import {ChildRepository} from "./ChildRepository";
-import {ToySelector} from "./ToySelector";
 
 export class Santa {
     constructor(
         private readonly repository: ChildRepository,
-        private readonly toySelector: ToySelector
     ) {
     }
 
@@ -19,6 +17,6 @@ export class Santa {
         if (!child) {
             throw new Error('No such child found');
         }
-        return this.toySelector.selectToy(child);
+        return child.behavior.selectToy(child.wishlist)
     }
 }
