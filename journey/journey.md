@@ -16,7 +16,14 @@
     - Know your tools. I tried (and failed) to use Zed and Scala but the integration was not great (no "play" button to run the tests, need to install a lot of things...).
     - I fall-backed to IntelliJ in the end, super smooth.
     - I used Claude Code to plan and execute the plan but telling it I'm learning Scala to have explanation on the code. This was a good idea.
-    - I love the solution using lambda pattern matching! 
+    - I love the solution using lambda pattern matching!
+
+### Day 3
+
+- Stack(s) & exercise I touched: [memories/2024/exercise/ts/day12](../memories/2024/exercise/ts/day12)
+- Key reflection I picked:
+  - KISS
+  - Strategy pattern is a good choice to replace if/else
 ---
 
 ## Time-loop rules for future-me
